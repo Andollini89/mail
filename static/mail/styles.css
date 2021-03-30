@@ -1,0 +1,58 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-div{
+    background-color: rgba(211, 211, 211, 0.623);
+    margin: 5px 0;
+    padding: 15px 0;
+    border: 1px solid lightgray;
+    transition: 30ms ease;
+}
+.unread{
+    background-color: white;
+}
+.email-div:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+.archive:hover, .envelope:hover{
+    color: crimson;
+}
+.address{
+    margin: 20px 0;
+    font-size: large;
+    font-weight: bold;
+}
+.reply{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.archive_div {
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+.archive_div:hover{
+    color: blue;
+    cursor: pointer;
+}
+.subject , .timestamp{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.subject{
+    font-weight: 500;
+}
+.timestamp{
+    font-size: small;
+    float: right;
+}
+.email-body{
+    padding: 5px 10px;
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px gray;
+}
